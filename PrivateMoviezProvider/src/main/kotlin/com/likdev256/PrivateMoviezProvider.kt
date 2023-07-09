@@ -9,7 +9,7 @@ import com.lagradost.cloudstream3.network.CloudflareKiller
 import com.lagradost.cloudstream3.utils.*
 import com.lagradost.cloudstream3.utils.AppUtils.parseJson
 import org.jsoup.Jsoup
-import org.jsoup.nodes.Element
+import org.jsoup.nodes.Element 
 
 class PrivateMoviezProvider : MainAPI() { // all providers must be an instance of MainAPI
     override var mainUrl = "https://privatemoviez.biz"
